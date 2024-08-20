@@ -1,0 +1,19 @@
+{
+	"name": "cmc linked service latest btc",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"parameters": {
+			"id": {
+				"type": "int",
+				"defaultValue": 1
+			}
+		},
+		"annotations": [],
+		"type": "WebConnection",
+		"typeProperties": {
+			"url": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/quotes/latest",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}

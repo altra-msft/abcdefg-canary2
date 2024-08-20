@@ -1,0 +1,36 @@
+{
+	"name": "abcdefg-canary",
+	"properties": {
+		"globalParameters": {
+			"gpSS": {
+				"type": "securestring",
+				"value": "**********"
+			},
+			"ggGITSecure": {
+				"type": "securestring",
+				"value": "**********"
+			},
+			"secureESTringdfdfs": {
+				"type": "securestring",
+				"value": "**********"
+			},
+			"globalParamArray": {
+				"type": "array",
+				"value": [
+					"hi",
+					"world",
+					"hello"
+				]
+			}
+		},
+		"globalConfigurations": {
+			"mountedConfiguration": []
+		}
+	},
+	"location": "eastus2euap",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f9cac824-dc19-41eb-b056-48f9e8b49c32",
+		"tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+	}
+}
